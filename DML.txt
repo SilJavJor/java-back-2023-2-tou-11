@@ -1,0 +1,6 @@
+INSERT INTO `tabla_unidad_11` (`id`, `nombre`, `apellido`, `edad`, `fecha`, `prvincia`) 
+  VALUES ('silvio', 'jorda', 53, '2023-11-06 18:14:48', 'bs as'),
+         ('miguel', 'nefle', 45, '2023-11-06 18:16:24', 'caba'),
+         ('marcelo', 'leolo', 35, '2023-11-06 18:17:19', 'caba'),
+	 ('gustavo', 'jacob', 60, '2023-11-06 18:18:18', 'salta'),
+	 ('edgardo', 'mimili', 38, '2023-11-06 18:19:00', 'chaco');

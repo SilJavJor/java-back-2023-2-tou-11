@@ -1,0 +1,13 @@
+CREATE TABLE `tabla_unidad_11` (
+	`id` INT(10) NOT NULL AUTO_INCREMENT,
+	`nombre` VARCHAR(40) NOT NULL COLLATE 'latin1_swedish_ci',
+	`apellido` VARCHAR(40) NOT NULL COLLATE 'latin1_swedish_ci',
+	`edad` TINYINT(3) NOT NULL,
+	`fecha` TIMESTAMP NOT NULL DEFAULT (now()),
+	`prvincia` VARCHAR(30) NOT NULL COLLATE 'latin1_swedish_ci',
+	PRIMARY KEY (`id`) USING BTREE
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=6
+;
